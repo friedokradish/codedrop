@@ -35,6 +35,17 @@ body {
   .stat {
     padding-right: 10px;
   }
+
+  #backLink{
+    font-size: large;
+    color: #ffffff;
+  }
+
+  #backLinkContainer {
+    max-width: 500px;
+    margin:0 auto;
+
+  }
   
   button {
     cursor: pointer;
