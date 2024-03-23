@@ -1,0 +1,85 @@
+/* styles.css -this is how we comment inside a stylesheet */
+
+body {  /* css selector for targeting html elements and applying styling rules*/
+ 
+padding:0px;
+margin:0px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#wrapper{
+  max-width:1080px;
+  margin:auto;
+}
+
+h1{
+  
+  margin: 0px;
+
+}
+
+#glyph{
+  
+  font-size: 40px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#header { 
+
+background-color:black;
+color:white;
+margin:0px;
+padding:10px 0px 5px 0px;
+text-align:center;
+font-family:helvetica;
+}
+
+#container {
+  margin:0px;
+}
+
+#nav{
+  margin-top: 5px;
+  border: 1px solid black;
+  padding: 1px;
+  
+}
+
+#nav ul {
+  list-style:none;
+  text-decoration: none;
+  margin: auto;
+}
+
+#nav ul li{
+display:inline; 
+margin-right:18px;
+font-size: 18px;
+
+}
+
+.linkText {
+  text-decoration: none;
+  color:black;
+}
+
+#selected{
+  font-weight: bold;
+}
+
+
+#content{ width:80%; margin:auto; text-align:justify;}
+
+footer {
+  
+background-color:black;
+color:#fff;
+padding:1px;
+text-align:center;
+}
+
+
+
+/* save as .css and place in same folder as .html*/
